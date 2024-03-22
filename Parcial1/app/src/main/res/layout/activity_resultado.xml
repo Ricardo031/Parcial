@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA7C95"
+    android:orientation="vertical"
+    tools:context=".Resultado">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:text="Resultados del parcial" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="Ricardo torres \n 1)C \n 2)C \n 3)C \n 4)B \n 5)C \n 6)A \n 7) C \n 8)B"
+        android:textAlignment="center"/>
+</LinearLayout>
